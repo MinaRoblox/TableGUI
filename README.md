@@ -3,8 +3,7 @@
 A pygame-dependent arrays in lists system to convert the data inside the lists
 inside of an array to convert to pixels in a screen.
 
-![Image of a grayscale scale inside the engine](example.png "Engine demo")
-
+![Demo usage of TableGUI](https://s6.imgcdn.dev/Yy7uQe.png)
 ## Installation
 The easiest way to install TableGUI is through PyPi (pip)
 ```
@@ -12,8 +11,8 @@ pip install TableGUI
 ```
 
 ## Usage
-I don't know. Try reading the documentation (coming soon.)
-
+I don't know. Try reading the documentation (probably coming soon)
 ## Version changelog
 ### 1.1.0: Fixes every issue.
-### 1.1.1: Change some definitions of the table interpretation.
+### 1.1.1: Change some definitions of the table interpretation
+### 1.1.2: Fixed uses with the PyPi page.
