@@ -12,7 +12,7 @@ pip install TableGUI
 ```
 
 ## Usage
-I don't know. Read the documentation (coming soon.)
+I don't know. Try reading the documentation (coming soon.)
 
 ## Version changelog
 ### 1.1.0: Fixes every issue.
