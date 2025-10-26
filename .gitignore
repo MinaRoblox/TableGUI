@@ -1,2 +1,6 @@
 # Project exclude paths
 /.venv/
+pypikey.txt
+/dist/
+/src/TableGUI.egg-info/
+upload.sh
