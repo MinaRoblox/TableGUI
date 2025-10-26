@@ -57,7 +57,7 @@ def get_table_color_from_image(image: str):
 class TableGUI:
     def __init__(self,
                  app_name: str,
-                 table_size: tuple,
+                 table_size: int,
                  screen_size: int,
                  background_color: tuple = BLACK,
                  audio_channels_amount: int = 10,
@@ -74,14 +74,14 @@ class TableGUI:
         self.NAME = app_name
         self.SCREEN_SIZE = screen_size
         # find screen size
-        scale_x = self.SCREEN_SIZE / table_size[0]
-        scale_y = self.SCREEN_SIZE / table_size[1]
+        scale_x = self.SCREEN_SIZE / table_size
+        scale_y = self.SCREEN_SIZE / table_size
         # defines the space between pixels
         self.number = min(scale_x, scale_y)
         # table creator
         def return_table():
             return [
-                [background_color for x in range(table_size[0])] for y in range(table_size[1])
+                [background_color for x in range(table_size)] for y in range(table_size)
             ]
         # window code
         # screen code
