@@ -4,3 +4,7 @@ pypikey.txt
 /dist/
 /src/TableGUI.egg-info/
 upload.sh
+.DS_Store
+/.idea/
+/src/TableGUI/__pycache__/
+/tests/__pycache__/
